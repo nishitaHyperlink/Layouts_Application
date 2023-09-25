@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Layouts Application</string>
+    <string name="b1">B1</string>
+    <string name="b9">B9</string>
+    <string name="b4">B4</string>
+    <string name="b5">B5</string>
+    <string name="b7">B7</string>
+    <string name="b8">B8</string>
+    <string name="a4">A4</string>
+    <string name="a3">A3</string>
+    <string name="a5">A5</string>
+    <string name="a2">A2</string>
+    <string name="a1">A1</string>
+    <string name="b6">B6</string>
+    <string name="b2">B2</string>
+    <string name="b3">B3</string>
+    <string name="b10">b10</string>
+    <string name="b11">B11</string>
+    <string name="s1">S1</string>
+    <string name="s2">S2</string>
+    <string name="s3">S3</string>
+    <string name="s4">S4</string>
+    <string name="s5">S5</string>
+    <string name="s6">S6</string>
+    <string name="p1">P1</string>
+    <string name="p2">P2</string>
+    <string name="p3">P3</string>
+    <string name="p4">P4</string>
+    <string name="p5">P5</string>
+    <string name="p6">P6</string>
+    <string name="p7">P7</string>
+    <string name="p8">P8</string>
+    <string name="p9">P9</string>
+    <string name="a_barrier_is_an_invisible_line_that_you_can_use_to_constrain_views_except_a_barrier_does_not_define_its_own_position_instead">a barrier is an invisible line that you can use to constrain views. Except a barrier does not define its own position — instead</string>
+    <string name="title">Title</string>
+    <string name="block_of_text">Block of text</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="btn">BTN</string>
+    <string name="btn1">BTN</string>
+    <string name="btn2">BTN</string>
+    <string name="btn3">BTN</string>
+    <string name="btn4">BTN</string>
+    <string name="btn5">BTN</string>
+    <string name="btn7">BTN</string>
+    <string name="btn6">BTN</string>
+    <string name="btn8">BTN</string>
+    <string name="btn11">BTN</string>
+    <string name="btn12">BTN</string>
+    <string name="btn13">BTN</string>
+
+
+</resources>

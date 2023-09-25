@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Linear_Layout_1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/material_dynamic_primary95"
+        android:src="@drawable/baseline_person"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/green2"
+        android:text="@string/title"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/material_dynamic_neutral70"
+        android:text="@string/block_of_text"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:layout_width="240dp"
+        android:layout_height="180dp"
+        android:layout_gravity="end"
+        android:background="@color/material_dynamic_primary80"
+        android:src="@drawable/pics1"/>
+
+    <ImageButton
+        android:layout_width="240dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="-181dp"
+        android:background="@color/material_dynamic_primary90"
+        android:src="@drawable/pic9" />
+
+    <ImageButton
+        android:layout_width="240dp"
+        android:layout_height="180dp"
+        android:background="#76D1FF"
+        android:src="@drawable/pic12"/>
+
+    <ImageButton
+        android:layout_width="240dp"
+        android:layout_height="180dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-181dp"
+        android:background="@color/material_dynamic_primary90"
+        android:src="@drawable/pic8"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/yellow"
+        android:src="@drawable/baseline_person"/>
+
+
+
+</LinearLayout>

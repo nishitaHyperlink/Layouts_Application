@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".MainActivity13">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvs0"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/b1"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="@color/yellow" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/b9"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/yellow"
+        android:layout_alignParentBottom="true" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/view1"
+        android:layout_marginStart="30dp"
+        android:text="@string/b4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="-54dp"
+        android:background="@color/yellow" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/view1"
+        android:layout_marginStart="240dp"
+        android:text="@string/b5"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="-55dp"
+        android:background="@color/yellow" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/tv4"
+        android:layout_marginStart="30dp"
+        android:text="@string/b7"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="110dp"
+        android:background="@color/yellow" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv4"
+        android:text="@string/b8"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/yellow" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:layout_above="@id/tv9"
+        android:text="@string/a4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="235dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:text="@string/a3"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginStart="35dp"
+        android:background="@color/blue" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv9"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/tvs3"
+        android:layout_centerHorizontal="true"
+        android:text="@string/a5"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:background="@color/blue"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv10"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="642dp"
+        android:text="@string/a2"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginStart="235dp"
+        android:background="@color/blue"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv11"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="642dp"
+        android:text="@string/a1"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginStart="65dp"
+        android:background="@color/blue"/>
+
+
+    <Button
+        android:id="@+id/view1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="@string/b6"
+        android:textSize="25sp" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvs1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:text="@string/b2"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="240dp"
+        android:background="@color/yellow" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvs2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:text="@string/b3"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/yellow" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvs3"
+        android:layout_width="100dp"
+        android:text="@string/b10"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/yellow" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvs4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/b10"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/yellow" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvs8"
+        android:layout_width="100dp"
+        android:text="@string/b11"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/yellow" />
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".MainActivity11">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/yellow"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/yellow"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:layout_alignParentBottom="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@id/tv2"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:layout_centerVertical="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv7"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:layout_above="@id/tv9"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="210dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv8"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:layout_above="@id/tv9"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv9"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/tv6"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/blue"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv10"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/tv6"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="210dp"
+        android:background="@color/blue"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

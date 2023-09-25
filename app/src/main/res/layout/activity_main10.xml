@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".MainActivity10">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="B1"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@color/yellow"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:text="B2"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@color/yellow"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/view1"
+        android:layout_marginLeft="15dp"
+        android:text="B3"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="-54dp"
+        android:background="@color/yellow" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/view1"
+        android:layout_marginLeft="250dp"
+        android:text="B4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="-55dp"
+        android:background="@color/yellow" />
+
+    <Button
+        android:id="@+id/view1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="B5"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/tv4"
+        android:layout_marginLeft="15dp"
+        android:text="B6"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="110dp"
+        android:background="@color/yellow" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tv6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv4"
+        android:text="B7"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/yellow" />
+
+
+</RelativeLayout>
